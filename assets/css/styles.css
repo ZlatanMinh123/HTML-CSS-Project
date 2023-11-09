@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #1ebfc1;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Common */
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 108px;
+    border-radius: 6px;
+    border: 0.9px solid var(--primary-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 12px 23px 12px 24px;
+}
+
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ===================== Header =================== */
+.header {
+    background: #fff;
+}
+
+.header.fixed {
+    position: sticky;
+    top: -28px;
+    z-index: 1;
+}
+
+.header .body {
+    display: flex;
+    align-items: center;
+    padding: 52px 0px 50px;
+}
+
+.header .nav ul {
+    display: flex;
+    margin-left: 214px;
+}
+
+.header .nav a:hover,
+.header .nav .active a {
+    font-size: 1.6rem;
+    /* font-weight: 600; */
+    text-shadow: 1px 0 0 currentColor;
+    color: #2f3a3b;
+}
+
+.header .nav a {
+    padding: 8px 19.5px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #2f3a3b;
+}
+
+.header .actions {
+    margin-left: auto;
+}
+
+.header .action-link {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #494949;
+}
+
+.header .actions a:hover,
+.header .action-btn {
+    margin-left: 24px;
+    color: #1ebfc1;
+}
