@@ -288,3 +288,9 @@ a {
     font-size: 1rem;
     font-weight: 500;
 }
+
+.header .action-btn:hover {
+    color: #fff;
+    background: var(--primary-color);
+    opacity: 0.8;
+}
