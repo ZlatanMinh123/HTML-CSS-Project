@@ -46,9 +46,11 @@ a {
     font-weight: 700;
 }
 
-/* ============================================== HERO  ============================================ */
+/* ============================================== HEADER  ============================================ */
 .header {
-    background: #fff;
+    padding: 52px 0px 10px;
+    background: #c4a2a2; /* Nhớ bỏ */
+    /* background: #fff; */
 }
 
 .header.fixed {
@@ -60,7 +62,6 @@ a {
 .header .body {
     display: flex;
     align-items: center;
-    padding: 52px 0px 10px;
 }
 
 .header .nav ul {
@@ -113,6 +114,7 @@ a {
 /* ================================ HERO =============================== */
 .hero {
     padding: 40px 0 79px;
+    background: #7d7979; /* Nhớ bỏ */
 }
 
 .hero .body {
@@ -293,4 +295,62 @@ a {
     color: #fff;
     background: var(--primary-color);
     opacity: 0.8;
+}
+
+/* ================================ FEATURES =============================== */
+.features {
+    padding-top: 130px;
+    background: #c8c4e0;
+}
+
+/* content */
+.features .content .section {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.features .content .heading.lv2 {
+    margin-top: 18px;
+    width: 577px;
+    font-size: 4.2rem;
+    line-height: 1.33; /* 133.333% */
+}
+
+.features .content .desc {
+    margin-top: 18px;
+    width: 590px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+/* features-list */
+.features .features-list {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features .features-list .title {
+    margin-top: 26px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #0d1111;
+}
+
+.features .features-list .desc {
+    margin-top: 16px;
+    color: #9da6a5;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6875; /* 168.75% */
+}
+
+.features .features-list .desc-1 {
+    width: 168px;
+}
+
+.features .desc-2, .features .desc-3 {
+    width: 223px;
 }
