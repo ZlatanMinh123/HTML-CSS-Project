@@ -46,10 +46,25 @@ a {
     font-weight: 700;
 }
 
+.heading.lv2 {
+    font-size: 4.2rem;
+}
+
 .section {
     color: #767e7e;
     font-size: 1.2rem;
     font-weight: 700;
+}
+
+.cta {
+    min-width: 186px;
+    line-height: 68px;
+    border-radius: 14px;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 0 41px;
 }
 
 /* ============================================== HEADER  ============================================ */
@@ -160,17 +175,6 @@ a {
     margin-top: 52px;
     display: flex;
     align-items: center;
-}
-
-.hero .content-block .hero-cta {
-    min-width: 186px;
-    line-height: 68px;
-    border-radius: 14px;
-    background: var(--primary-color);
-    color: #fff;
-    font-size: 1.8rem;
-    font-weight: 600;
-    padding: 0 41px;
 }
 
 .hero .content-block .icon {
@@ -313,7 +317,6 @@ a {
 .features .content .heading.lv2 {
     margin-top: 18px;
     width: 577px;
-    font-size: 4.2rem;
     line-height: 1.33; /* 133.333% */
 }
 
@@ -365,7 +368,6 @@ a {
 /* Popular-top */
 .popular .popular-top .heading.lv2 {
     margin-top: 18px;
-    font-size: 4.2rem;
 }
 
 .popular .popular-top .desc {
@@ -646,4 +648,29 @@ a {
     height: 235px;
     top: 107px;
     left: 273px;
+}
+
+/* ================================ SIGN-UP =============================== */
+.sign-up {
+    background: #def6f5;
+}
+
+.sign-up .body {
+    display: flex;
+    align-items: center;
+}
+
+.sign-up .info {
+    padding: 76px 410px 88px 0;
+}
+
+.sign-up .info .heading.lv2 {
+    color: #070707;
+}
+
+.sign-up .info .desc {
+    margin-top: 25px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
 }
