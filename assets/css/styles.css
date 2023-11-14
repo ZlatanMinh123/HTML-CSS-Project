@@ -6,6 +6,11 @@
     --primary-color: #1ebfc1;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -69,9 +74,8 @@ a {
 
 /* ============================================== HEADER  ============================================ */
 .header {
+    background: #ffffffa8;
     padding: 52px 0px 10px;
-    background: #c4a2a2; /* Nhớ bỏ */
-    /* background: #fff; */
 }
 
 .header.fixed {
@@ -135,7 +139,6 @@ a {
 /* ================================ HERO =============================== */
 .hero {
     padding: 40px 0 79px;
-    background: #7d7979; /* Nhớ bỏ */
 }
 
 .hero .body {
@@ -310,7 +313,6 @@ a {
 /* ================================ FEATURES =============================== */
 .features {
     padding-top: 130px;
-    background: #c8c4e0;
 }
 
 /* content */
@@ -362,7 +364,6 @@ a {
 /* ================================ POPULAR =============================== */
 .popular {
     padding: 130px 0 96px 0;
-    background: #ded7d7;
 }
 
 /* Popular-top */
@@ -492,7 +493,6 @@ a {
 /* ================================ STATS =============================== */
 .stats {
     padding: 265px 0 130px 0;
-    background: #f8eeee;
 }
 
 .stats .row {
@@ -651,10 +651,6 @@ a {
 }
 
 /* ================================ SIGN-UP =============================== */
-.sign-up {
-    background: #def6f5;
-}
-
 .sign-up .body {
     display: flex;
     align-items: center;
@@ -671,6 +667,67 @@ a {
 .sign-up .info .desc {
     margin-top: 25px;
     color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+/* ================================ FOOTER =============================== */
+footer .body {
+    padding: 130px 0 50px 0;
+}
+
+footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .row .title {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+footer .row .list li {
+    margin-top: 25px;
+}
+
+footer .row .desc {
+    color: #535353;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+footer .row .desc:hover {
+    text-shadow: 1px 0 0 currentColor;
+}
+
+footer .row .social-item {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-top: 18px;
+}
+
+footer .row .social-item .social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    background: #f9f9f9;
+}
+
+.footer .social-link:hover {
+    background: #ebebeb;
+}
+
+.footer .copyright {
+    margin: 80px 343px 0 343px;
+}
+
+.footer .copyright p {
+    color: #b0b5b4;
     font-size: 1.8rem;
     font-weight: 400;
 }
