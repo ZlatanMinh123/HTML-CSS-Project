@@ -74,7 +74,7 @@ a {
 
 /* ============================================== HEADER  ============================================ */
 .header {
-    background: #ffffffa8;
+    background: #fcf5f5;
     padding: 52px 0px 10px;
 }
 
@@ -128,6 +128,7 @@ a {
     border: 0.9px solid var(--primary-color);
     padding: 12px 23px 12px 24px;
     color: #1ebfc1;
+    height: 48px;
 }
 
 .header .action-btn:hover {
@@ -715,10 +716,10 @@ footer .row .social-item .social-link {
     width: 20px;
     height: 20px;
     border-radius: 3px;
-    background: #f9f9f9;
+    background: #fff;
 }
 
-.footer .social-link:hover {
+footer .row .social-item .social-link:hover {
     background: #ebebeb;
 }
 
